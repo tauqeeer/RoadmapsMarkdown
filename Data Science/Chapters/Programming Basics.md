@@ -118,12 +118,12 @@ Now a better and efficient way to approach this problem would be to make a loop 
 
 The above paragraph can be explained through a loop psuedocode:
 
-```python
-for numbers 1 to 10
-print number
-change line
-end loop
-```
+
+    for numbers 1 to 10
+    print number
+    change line
+    end loop
+
 
 Just by 4 lines, you can perform the task which should have taken 10 lines by implementing loops. 6 lines can be saved for the memory by applying loops so it already has better efficiency.
 

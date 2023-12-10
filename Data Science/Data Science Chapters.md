@@ -7,4 +7,5 @@
 ### [5. Python Basics](/Data%20Science/Chapters/Python%20Basics.md)
 ### [6. Data Preprocessing](/Data%20Science/Chapters/Data%20Preprocessing.md)
 ### [7. Machine Learning](/Data%20Science/Chapters/Machine%20Learning.md)
-### [8. Deep Learning](/Data%20Science/Chapters/Deep%20Learning.md)
+### [8. Data Visualization](/Data%20Science/Chapters/Data%20Visualization.md)
+### [9. Deep Learning](/Data%20Science/Chapters/Deep%20Learning.md)

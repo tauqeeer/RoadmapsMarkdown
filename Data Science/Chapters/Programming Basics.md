@@ -116,12 +116,14 @@ First you write each and every output from 1 to 10 in a single line like:
 
 Now a better and efficient way to approach this problem would be to make a loop and tell the program to start showing numbers in a single line and start with 1, increase a number each time you display the output, and end with 10.
 
-The above paragraph can be explained through a loop psuedocode.
+The above paragraph can be explained through a loop psuedocode:
 
-`for numbers 1 to 10` </br>
-`print number`</br>
-`change line`</br>
-`end loop` </br>
+```python
+for numbers 1 to 10
+print number
+change line
+end loop
+```
 
 Just by 4 lines, you can perform the task which should have taken 10 lines by implementing loops. 6 lines can be saved for the memory by applying loops so it already has better efficiency.
 

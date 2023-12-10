@@ -73,5 +73,58 @@ Loading a dataset:
 
 ---
 
-These were some of the basic machine learning libraries you can use to import and upload data sets onto your model. They are know for their well known readability and usability, also they can be run on any python platform or enviorment. 
+These were some of the basic machine learning libraries you can use to import and upload data sets onto your model. They are know for their well known readability and usability, also they can be run on any python platform or enviorment. </br>
+</br>
+</br>
+
+
+# Machine Learning Algorithms
+
+Here `X_train` and `y_train` are the training datasets. `X_test` is the dataset we want to make predictions on and `y_pred` is the variable in which we will store the predicted values.
+
+## Linear Regression
+
+Linear regression is a statistical method which compares two variables with one another. This algorithm works mainly upon two variables `x` and `y` where `x` is the independent variable which is usually known as the predictor or the input. We use the values of `x` to determine the value of `y` which is known as dependant variable or the output.
+
+`from sklearn.linear_model import LinearRegression`</br>
+`lr = LinearRegression()`</br> 
+`lr.fit(X_train, y_train)`</br>
+`y_pred = lr.predict(X_test)`</br>
+
+## Logistic Regression
+
+Logistic regression is a classifier which works on giving boolean values like 1 or 0 which determines whether the given independent variables match a certain criteria or not.
+
+`from sklearn.linear_model import LogisticRegression`</br>
+`logr = LogisticRegression()`</br>
+`logr.fit(X_train, y_train)`</br>
+`y_pred = logr.predict(X_test)`</br>
+
+## Decision Tree
+
+Decision tree uses a logistic approach to classify a certain element by predicting the value of a target variable through learning the data features.
+
+`from sklearn import tree`</br>
+`model = tree.DecisionTreeClassifier()`</br>
+`model.fit(X_train, y_train)`</br>
+`predictions = model.predict(X_test)`</br>
+
+## K-Nearest Neighbours
+
+Also known as KNN, this algorithm uses it's nearest neighbours to determine the classisfication of an element. If the target variable has similar features as it's neigbour, they will be classified together. This algorithm can be used to create recommendation systems.
+
+`from sklearn.neighbors import KNeighborsClassifier`</br>
+`model = KNeighborsClassifier(n_neighbors=3)`</br>
+`model.fit(X_train, y_train)`</br>
+`predictions = model.predict(X_test)`</br>
+
+## Support Vector Machines
+
+Also known as SVM, this alorithm draws a vector in a n-dimensional space where n is the number of features of the dataset. This algorithm is used mainly for outlier detection and classification. If the target varaible lies outside the vector, it is considered as an outlier.
+
+`from sklearn import svm`</br>
+`svc = svm.SVC()`</br>
+`svc.fit(X_train, y_train)`</br>
+`y_pred = svc.predict(X_test)`</br>
+
 

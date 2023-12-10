@@ -9,7 +9,7 @@ Data Visualization enables analysts to understand and make sense of data pattern
 It is the most popular and widely-used plotting library in the Python community. It can be used to create plots, bar charts, pie charts, histograms, scatterplots, error charts, power spectra, stemplots, and much more.
 
 ```python
-import numpy as np`</br>
+import numpy as np
 from matplotlib import pyplot as plt
 
 ys = 200 + np.random.randn(100)

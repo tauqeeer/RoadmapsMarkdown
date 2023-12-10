@@ -28,15 +28,21 @@ NumPy library is used for performing mathematical operations, such as matrix mul
 
 NumPy already comes built in for Google Colab but in case it doesn't, try to install it by using:
 
-`!pip install numpy`
+```python
+!pip install numpy
+```
 
 Import NumPy as library using:
 
-`import numpy as np`
+```python
+import numpy as np
+```
 
 You can now store and create arrays using NumPy library by using `.np` after your array name:
 
-`myArray = np.array([9,7,3])`
+```python
+myArray = np.array([9,7,3])
+```
 
 ## Pandas
 
@@ -44,15 +50,21 @@ Pandas library is used in machine learning to manipulate and edit data. It is us
 
 Pandas already comes built in for Google Colab but in case it doesn't, try to install it by using:
 
-`!pip install pandas`
+```python
+!pip install pandas
+```
 
 Import pandas as library using:
 
-`import numpy as np`
+```python
+import numpy as np
+```
 
 You can now add files using pandas library:
 
-`df = pd.read_csv('file.csv')`
+```python
+df = pd.read_csv('file.csv')
+```
 
 ## Scikit-Learn
 
@@ -60,17 +72,22 @@ Scikit-learn (also known as Sklearn) library is used in machine learning by prov
 
 Scikit-learn library can be installed using:
 
-`!pip install -U scikit-learn`
+```python
+!pip install -U scikit-learn
+```
 
 Import Scikit-learn:
 
-`import sklearn`
+```python
+import sklearn
+```
 
 Loading a dataset:
 
-`from sklearn.datasets import load_iris`</br>
-`iris = load_iris()`
-
+```python
+from sklearn.datasets import load_iris
+iris = load_iris()
+```
 ---
 
 These were some of the basic machine learning libraries you can use to import and upload data sets onto your model. They are know for their well known readability and usability, also they can be run on any python platform or enviorment. </br>
@@ -86,45 +103,56 @@ Here `X_train` and `y_train` are the training datasets. `X_test` is the dataset 
 
 Linear regression is a statistical method which compares two variables with one another. This algorithm works mainly upon two variables `x` and `y` where `x` is the independent variable which is usually known as the predictor or the input. We use the values of `x` to determine the value of `y` which is known as dependant variable or the output.
 
-`from sklearn.linear_model import LinearRegression`</br>
-`lr = LinearRegression()`</br> 
-`lr.fit(X_train, y_train)`</br>
-`y_pred = lr.predict(X_test)`</br>
+
+```python
+from sklearn.linear_model import LinearRegression
+lr = LinearRegression()
+lr.fit(X_train, y_train)
+y_pred = lr.predict(X_test)
+```
 
 ## Logistic Regression
 
 Logistic regression is a classifier which works on giving boolean values like 1 or 0 which determines whether the given independent variables match a certain criteria or not.
 
-`from sklearn.linear_model import LogisticRegression`</br>
-`logr = LogisticRegression()`</br>
-`logr.fit(X_train, y_train)`</br>
-`y_pred = logr.predict(X_test)`</br>
+```python
+from sklearn.linear_model import LogisticRegression
+logr = LogisticRegression()
+logr.fit(X_train, y_train)
+y_pred = logr.predict(X_test)
+```
 
 ## Decision Tree
 
 Decision tree uses a logistic approach to classify a certain element by predicting the value of a target variable through learning the data features.
 
-`from sklearn import tree`</br>
-`model = tree.DecisionTreeClassifier()`</br>
-`model.fit(X_train, y_train)`</br>
-`predictions = model.predict(X_test)`</br>
+```python
+from sklearn import tree
+model = tree.DecisionTreeClassifier()
+model.fit(X_train, y_train)
+predictions = model.predict(X_test)
+```
 
 ## K-Nearest Neighbours
 
 Also known as KNN, this algorithm uses it's nearest neighbours to determine the classisfication of an element. If the target variable has similar features as it's neigbour, they will be classified together. This algorithm can be used to create recommendation systems.
 
-`from sklearn.neighbors import KNeighborsClassifier`</br>
-`model = KNeighborsClassifier(n_neighbors=3)`</br>
-`model.fit(X_train, y_train)`</br>
-`predictions = model.predict(X_test)`</br>
+```python
+from sklearn.neighbors import KNeighborsClassifier
+model = KNeighborsClassifier(n_neighbors=3)
+model.fit(X_train, y_train)
+predictions = model.predict(X_test)
+```
 
 ## Support Vector Machines
 
 Also known as SVM, this alorithm draws a vector in a n-dimensional space where n is the number of features of the dataset. This algorithm is used mainly for outlier detection and classification. If the target varaible lies outside the vector, it is considered as an outlier.
 
-`from sklearn import svm`</br>
-`svc = svm.SVC()`</br>
-`svc.fit(X_train, y_train)`</br>
-`y_pred = svc.predict(X_test)`</br>
+```python
+from sklearn import svm
+svc = svm.SVC()
+svc.fit(X_train, y_train)
+y_pred = svc.predict(X_test)
+```
 
 

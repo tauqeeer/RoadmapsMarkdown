@@ -4,30 +4,42 @@ Python programming language is one of the most popular programming languages in 
 
 ## Python Syntax
 
-` print("Hello World!")` </br>
+```python
+print("Hello World!")
+```
 
 This line will generate the following output for you: "Hello, World".
 
-`a = 5`
+```python
+a = 5
+```
 
 This line will assign value `5` to the variable `a`. The `=` operator is used to assign a value to a variable or constant.
 
-`if a < 5`</br>
-`print("a is less than 5")`
+```python
+if a < 5
+print("a is less than 5")
+```
 
 The above lines will check if the value assigned to variable a is less than 5, then show the given output.
 
-`else a > 5`</br>
-`print("a is greater than 5")`
+```python
+else a > 5
+print("a is greater than 5")
+```
 
 The above lines will check if the value assigned to variable a is greater than 5, then show the given output.
 
-`#I am using comments to hide this line of code`</br>
+```python
+#I am using comments to hide this line of code
+```
 
 The above line will comment out any line of code present in your program. It means that which ever line is commented out, it will not be executed.
 
-`else if a == 5`
-`print("a is equal to 5")`
+```python
+else if a == 5
+print("a is equal to 5")
+```
 
 The `==` operator checks if the assigned value is exactly equal to the given value, then the given output is displayed.
 
